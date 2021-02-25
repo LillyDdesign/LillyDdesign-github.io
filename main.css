@@ -1,0 +1,98 @@
+
+
+}
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('blackjack-webfont.eot');
+    src: url('blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blackjack-webfont.woff2') format('woff2'),
+         url('blackjack-webfont.woff') format('woff'),
+         url('blackjack-webfont.ttf') format('truetype'),
+         url('blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body{
+    background: linear-gradient(#097db3, #d67c16);
+}
+
+.front-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-image: url("assets/frontcardbackground.svg");
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 15px 0px #17161694;
+    border-radius: 25px;
+    border: 6px solid rgb(24, 163, 145);
+    
+}
+.back-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-image: url("assets/BackArtCard.svg");
+    box-shadow: 2px 5px 15px 0px #17161694;
+    font-family: 'Comfortaa'; 
+    border-radius: 25px;
+    border: 6px solid rgb(24, 163, 145);
+    
+}
+h1{
+    border-radius: 39px;
+    position: sticky;
+    padding-top: 70%;
+    padding-left: 40px;
+    color:rgb(22, 88, 80);
+    font-family: 'black_jackregular';
+    font-size: 40px;
+}
+h2{
+    position: sticky;
+    padding-top: 60%;
+    padding-left: 60%;
+    color: rgb(22, 88, 80);
+    font-size: 25px;
+}  
+h3{
+    position: sticky;
+    padding-left: 60%;
+    padding-bottom: px;
+    color: rgb(22, 88, 80);
+    font-size: 25px;
+}
+h4{
+    position: sticky;
+    padding-left: 60%;
+    padding-bottom: 40px;
+    color: rgb(22, 88, 80);
+    font-size: 25px;
+}
+.icon-container{
+        display:grid;
+        width: 45px;
+        margin-right: 30%;
+        padding-left: 280px;
+    
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "a"
+        "b" 
+        "c";
+        
+    
+}
+svg{
+    fill:rgb(22, 88, 80);;
+}
+
+svg:hover{
+    fill:rgb(218, 170, 16);
+    -webkit-animation: swing 1s;
+    animation: swing 1s;
+}
